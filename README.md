@@ -118,10 +118,10 @@ cd Gestion-gym
 ### Configura el archivo application.properties con los datos de conexión a MySQL:
 properties
 ```
-spring.datasource.url=jdbc:mysql://localhost:3306/nombre_base_datos
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
-spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3307/FitManage?useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ```
 
 # Ejecuta la aplicación desde IntelliJ IDEA o mediante Maven:
