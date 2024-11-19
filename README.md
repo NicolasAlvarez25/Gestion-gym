@@ -161,15 +161,16 @@ ionic serve
 
 ## Uso del Sistema 🖥️
 Rutas del Backend (API REST)
- Cliente: /api/clientes GET, POST, PUT, DELETE
- Membresía: /api/membresias 
- GET, POST, PUT, DELETE
- Factura: /api/facturas 
- GET, POST
- Plan: /api/planes 
- GET, POST, PUT
- Notificación: /api/notificaciones
- GET, POST
+- *Cliente*: /api/clientes
+- GET, POST, PUT, DELETE
+- *Membresía*: /api/membresias
+-  GET, POST, PUT, DELETE
+- *Factura* : /api/facturas
+- GET, POST
+- *Plan*: /api/planes
+- GET, POST, PUT
+- *Notificación*: /api/notificaciones
+-  GET, POST
 
 ## Navegación en el Frontend
  Página de inicio: Vista general del sistema.
