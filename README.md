@@ -186,7 +186,7 @@ Rutas del Backend (API REST)
 Crea la base de datos con el siguiente comando en phpMyAdmin:
 ```
 sql
-CREATE DATABASE nombre_base_datos;
+CREATE DATABASE FitManage;
 ```
 Importa el archivo schema.sql para crear las tablas.
 
@@ -194,10 +194,3 @@ Importa el archivo schema.sql para crear las tablas.
  Integración con pasarelas de pago para membresías.
  Notificaciones por correo electrónico o SMS.
  Generación de reportes estadísticos.
-
-## Contribuciones 🤝
- Si deseas contribuir, sigue estos pasos:
- Haz un fork del proyecto.
- Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
- Realiza tus cambios y súbelos (git commit -m "Descripción de los cambios").
- Envía un pull request.
