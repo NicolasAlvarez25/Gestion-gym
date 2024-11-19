@@ -1,5 +1,5 @@
 # Gestion-gym
-# Gestión de Gimnasio 🏋️‍♂️
+# Gestión de Gimnasios 🏋️‍♂️
 
 ## Descripción del Proyecto
 Este proyecto es un sistema de gestión de gimnasios diseñado para facilitar el manejo de clientes, membresías, planes, facturación y notificaciones. Combina una arquitectura backend en **Java Spring Boot** con un frontend construido en **Ionic** y **Vue.js**. La base de datos está configurada en **MySQL** mediante **XAMPP**.
@@ -63,21 +63,14 @@ El sistema utiliza una arquitectura basada en servicios:
 ### Base de Datos
 - XAMPP (para MySQL y phpMyAdmin)  
 
-## Instalación y Configuración 🛠️
-
-### Clonar el repositorio
-```bash
-git clone https://github.com/NicolasAlvarez25/Gestion-gym.git
-cd Gestion-gym
-
-Instalación y Configuración 🛠️
+# Instalación y Configuración 🛠️
 Clonar el repositorio
 bash
 Copiar código
 git clone https://github.com/tu-usuario/nombre-del-repositorio.git
 cd nombre-del-repositorio
 
-Configurar el Backend
+# Configurar el Backend
 Configura el archivo application.properties con los datos de conexión a MySQL:
 properties
 Copiar código
