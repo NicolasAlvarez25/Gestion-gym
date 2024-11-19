@@ -9,17 +9,18 @@ El sistema de Gestión de Gimnasios tiene como objetivo optimizar los procesos a
 
 ## Objetivos Generales
 Desarrollar un sistema completo que permita la administración de un gimnasio, abarcando desde la gestión de clientes hasta el seguimiento de pagos y servicios.
-Objetivos Específicos
-Gestión de Clientes:
 
+## Objetivos Específicos
+
+Gestión de Clientes:
 Registrar, actualizar y eliminar información de clientes.
 Consultar el historial de membresías y pagos asociados a cada cliente.
 
 Administración de Membresías:
 Crear y asignar membresías personalizadas a clientes según sus necesidades.
 Administrar fechas de inicio, vencimiento y renovación de membresías.
-Facturación:
 
+Facturación:
 Generar facturas detalladas para cada cliente.
 Consultar el estado de pagos (pagado o pendiente).
 
