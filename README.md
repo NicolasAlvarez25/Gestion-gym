@@ -66,45 +66,35 @@ El sistema utiliza una arquitectura basada en servicios:
 ## Instalación y Configuración 🛠️
 
 ### Clonar el repositorio
-```bash
+```
 git clone https://github.com/NicolasAlvarez25/Gestion-gym.git
 cd Gestion-gym
-
-Instalación y Configuración 🛠️
-Clonar el repositorio
-bash
-Copiar código
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-cd nombre-del-repositorio
-
-Configurar el Backend
-Configura el archivo application.properties con los datos de conexión a MySQL:
+```
+## Configurar el Backend
+### Configura el archivo application.properties con los datos de conexión a MySQL:
 properties
-Copiar código
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/nombre_base_datos
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
+```
 
-
-Ejecuta la aplicación desde IntelliJ IDEA o mediante Maven:
-bash
-Copiar código
+# Ejecuta la aplicación desde IntelliJ IDEA o mediante Maven:
+```
 mvn spring-boot:run
+```
 
-
-Configurar el Frontend
-Instala las dependencias:
-bash
-Copiar código
+# Configurar el Frontend
+## Instala las dependencias:
+```
 npm install
+```
 
-
-Ejecuta la aplicación en modo desarrollo:
-bash
-Copiar código
+# Ejecuta la aplicación en modo desarrollo:
+```
 ionic serve
-
+```
 
 
 Uso del Sistema 🖥️
