@@ -97,50 +97,49 @@ ionic serve
 ```
 
 
-Uso del Sistema 🖥️
-Rutas del Backend (API REST)
-Cliente: /api/clientes
-GET, POST, PUT, DELETE
-Membresía: /api/membresias
-GET, POST, PUT, DELETE
-Factura: /api/facturas
-GET, POST
-Plan: /api/planes
-GET, POST, PUT
-Notificación: /api/notificaciones
-GET, POST
-Navegación en el Frontend
-Página de inicio: Vista general del sistema.
-Gestión de clientes: Agregar, editar o eliminar clientes.
-Membresías: Consultar y asignar membresías.
-Facturación: Emitir y consultar facturas.
-Notificaciones: Enviar recordatorios o alertas.
+# Uso del Sistema 🖥️
+## Rutas del Backend (API REST)
+### Cliente: /api/clientes GET, POST, PUT, DELETE
+## Membresía: /api/membresias 
+### GET, POST, PUT, DELETE
+## Factura: /api/facturas 
+### GET, POST
+## Plan: /api/planes 
+### GET, POST, PUT
+## Notificación: /api/notificaciones
+### GET, POST
 
-Base de Datos 📂
-Diagrama ER:
-Configuración inicial
-Inicia XAMPP y activa MySQL.
+# Navegación en el Frontend
+### Página de inicio: Vista general del sistema.
+### Gestión de clientes: Agregar, editar o eliminar clientes.
+### Membresías: Consultar y asignar membresías.
+### Facturación: Emitir y consultar facturas.
+### Notificaciones: Enviar recordatorios o alertas.
+
+# Base de Datos 📂
+## Diagrama ER:
+### Configuración inicial
+### Inicia XAMPP y activa MySQL.
 Crea la base de datos con el siguiente comando en phpMyAdmin:
+```
 sql
-Copiar código
 CREATE DATABASE nombre_base_datos;
-
-
+```
 Importa el archivo schema.sql para crear las tablas.
 
-Mejoras Futuras 🚀
-Integración con pasarelas de pago para membresías.
-Notificaciones por correo electrónico o SMS.
-Generación de reportes estadísticos.
+# Mejoras Futuras 🚀
+### Integración con pasarelas de pago para membresías.
+### Notificaciones por correo electrónico o SMS.
+### Generación de reportes estadísticos.
 
-Contribuciones 🤝
-Si deseas contribuir, sigue estos pasos:
-Haz un fork del proyecto.
-Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
-Realiza tus cambios y súbelos (git commit -m "Descripción de los cambios").
-Envía un pull request.
+# Contribuciones 🤝
+### Si deseas contribuir, sigue estos pasos:
+### Haz un fork del proyecto.
+### Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
+### Realiza tus cambios y súbelos (git commit -m "Descripción de los cambios").
+### Envía un pull request.
 
-Autor ✍️
+# Autor ✍️
 Nombre del Autor: [Tu Nombre]
 Contacto: [Tu Email]
 
