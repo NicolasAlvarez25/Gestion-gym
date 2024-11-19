@@ -14,48 +14,48 @@ Gestión de Clientes:
 
 Registrar, actualizar y eliminar información de clientes.
 Consultar el historial de membresías y pagos asociados a cada cliente.
-Administración de Membresías:
 
+Administración de Membresías:
 Crear y asignar membresías personalizadas a clientes según sus necesidades.
 Administrar fechas de inicio, vencimiento y renovación de membresías.
 Facturación:
 
 Generar facturas detalladas para cada cliente.
 Consultar el estado de pagos (pagado o pendiente).
-Planes de Entrenamiento:
 
+Planes de Entrenamiento:
 Crear y gestionar planes de entrenamiento personalizados para los clientes.
 Asociar planes de entrenamiento con membresías o servicios contratados.
-Notificaciones:
 
+Notificaciones:
 Enviar recordatorios automáticos a los clientes sobre fechas de pago, vencimientos de membresías y promociones especiales.
 Funcionalidades Incluidas
 Frontend (Interfaz de Usuario):
 
 Diseño responsive que permite su uso en dispositivos móviles y computadoras.
 Interfaz intuitiva desarrollada con Ionic + Vue.js para facilitar la experiencia del usuario.
-Backend:
 
+Backend:
 API REST implementada en Java Spring Boot para gestionar las operaciones del sistema.
 Integración con una base de datos MySQL para almacenamiento de información.
-Base de Datos:
 
+Base de Datos:
 Tablas diseñadas para almacenar información de clientes, membresías, facturación, planes y notificaciones.
 Scripts predefinidos para la creación y población de datos iniciales.
-Automatización:
 
+Automatización:
 Generación de notificaciones automáticas para pagos y vencimientos.
 Actualización en tiempo real de datos mediante la sincronización entre backend y frontend.
-Exclusiones
-El sistema no incluye:
 
+### Exclusiones
+El sistema no incluye:
 Gestión avanzada de inventarios de productos físicos (suplementos, ropa deportiva, etc.).
 Monitoreo en tiempo real de la ocupación del gimnasio o uso de máquinas.
 Integración con sistemas externos de pasarelas de pago (como PayPal o Stripe).
 Funcionalidades para redes sociales o marketing avanzado.
-Público Objetivo
-El sistema está diseñado para:
 
+### Público Objetivo
+El sistema está diseñado para:
 Gimnasios pequeños y medianos que desean digitalizar sus operaciones.
 Administradores que buscan una herramienta centralizada para la gestión de clientes y servicios.
 Entrenadores que necesitan asignar planes personalizados de forma eficiente.
