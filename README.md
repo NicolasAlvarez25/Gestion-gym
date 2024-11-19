@@ -4,6 +4,67 @@
 ## Descripción del Proyecto
 Este proyecto es un sistema de gestión de gimnasios diseñado para facilitar el manejo de clientes, membresías, planes, facturación y notificaciones. Combina una arquitectura backend en **Java Spring Boot** con un frontend construido en **Ionic** y **Vue.js**. La base de datos está configurada en **MySQL** mediante **XAMPP**.
 
+## Alcance del Proyecto 🏋️‍♂️
+El sistema de Gestión de Gimnasios tiene como objetivo optimizar los procesos administrativos y operativos de un gimnasio mediante la implementación de un software robusto y fácil de usar. Este proyecto se enfoca en la gestión eficiente de clientes, membresías, facturación, planes de entrenamiento y notificaciones.
+
+## Objetivos Generales
+Desarrollar un sistema completo que permita la administración de un gimnasio, abarcando desde la gestión de clientes hasta el seguimiento de pagos y servicios.
+Objetivos Específicos
+Gestión de Clientes:
+
+Registrar, actualizar y eliminar información de clientes.
+Consultar el historial de membresías y pagos asociados a cada cliente.
+Administración de Membresías:
+
+Crear y asignar membresías personalizadas a clientes según sus necesidades.
+Administrar fechas de inicio, vencimiento y renovación de membresías.
+Facturación:
+
+Generar facturas detalladas para cada cliente.
+Consultar el estado de pagos (pagado o pendiente).
+Planes de Entrenamiento:
+
+Crear y gestionar planes de entrenamiento personalizados para los clientes.
+Asociar planes de entrenamiento con membresías o servicios contratados.
+Notificaciones:
+
+Enviar recordatorios automáticos a los clientes sobre fechas de pago, vencimientos de membresías y promociones especiales.
+Funcionalidades Incluidas
+Frontend (Interfaz de Usuario):
+
+Diseño responsive que permite su uso en dispositivos móviles y computadoras.
+Interfaz intuitiva desarrollada con Ionic + Vue.js para facilitar la experiencia del usuario.
+Backend:
+
+API REST implementada en Java Spring Boot para gestionar las operaciones del sistema.
+Integración con una base de datos MySQL para almacenamiento de información.
+Base de Datos:
+
+Tablas diseñadas para almacenar información de clientes, membresías, facturación, planes y notificaciones.
+Scripts predefinidos para la creación y población de datos iniciales.
+Automatización:
+
+Generación de notificaciones automáticas para pagos y vencimientos.
+Actualización en tiempo real de datos mediante la sincronización entre backend y frontend.
+Exclusiones
+El sistema no incluye:
+
+Gestión avanzada de inventarios de productos físicos (suplementos, ropa deportiva, etc.).
+Monitoreo en tiempo real de la ocupación del gimnasio o uso de máquinas.
+Integración con sistemas externos de pasarelas de pago (como PayPal o Stripe).
+Funcionalidades para redes sociales o marketing avanzado.
+Público Objetivo
+El sistema está diseñado para:
+
+Gimnasios pequeños y medianos que desean digitalizar sus operaciones.
+Administradores que buscan una herramienta centralizada para la gestión de clientes y servicios.
+Entrenadores que necesitan asignar planes personalizados de forma eficiente.
+Beneficios
+Reducción de tiempo y esfuerzo en la gestión manual.
+Mejora en la experiencia del cliente al ofrecer un servicio más organizado.
+Disminución de errores humanos en la facturación y el seguimiento de pagos.
+Mayor control sobre las membresías y servicios del gimnasio.
+
 ## Características Principales 🌟
 - **Gestión de clientes**: Registro, edición y eliminación de información de clientes.
 - **Control de membresías**: Creación, asignación y seguimiento de las membresías activas.
@@ -138,10 +199,3 @@ Importa el archivo schema.sql para crear las tablas.
 ### Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
 ### Realiza tus cambios y súbelos (git commit -m "Descripción de los cambios").
 ### Envía un pull request.
-
-# Autor ✍️
-### Nombre del Autor: [Tu Nombre]
-### Contacto: [Tu Email]
-
-# Licencia 📜
-### Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
