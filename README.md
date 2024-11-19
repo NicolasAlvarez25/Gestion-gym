@@ -140,11 +140,8 @@ Importa el archivo schema.sql para crear las tablas.
 ### Envía un pull request.
 
 # Autor ✍️
-Nombre del Autor: [Tu Nombre]
-Contacto: [Tu Email]
+### Nombre del Autor: [Tu Nombre]
+### Contacto: [Tu Email]
 
-Licencia 📜
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
-
-Este archivo README.md está listo para ser usado en tu repositorio de Git. Puedes adaptarlo según los detalles específicos de tu proyecto y agregar elementos como capturas de pantalla, enlaces externos o ejemplos de uso.
-
+# Licencia 📜
+### Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
